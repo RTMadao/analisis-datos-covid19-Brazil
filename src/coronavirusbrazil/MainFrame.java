@@ -63,7 +63,7 @@ public class MainFrame extends javax.swing.JFrame {
         
         for (Recta linea : lineas) {
             JTextArea texto = new JTextArea(linea.getCluster().toString());
-            texto.setTabSize(10);
+            texto.setTabSize(5);
             panelCluster.add(texto);
             System.out.println(linea.getCluster());
         }
